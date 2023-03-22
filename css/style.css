@@ -1,0 +1,50 @@
+body {margin: 0;padding: 0;font-family: 'Arial', sans-serif;}
+h1,h2,h3,h4,h5,h6,p{padding: 0; margin: 0;}
+* {box-sizing: border-box}
+a{text-decoration: none;}
+input,textarea:focus{outline: none;}
+h2{font-weight: lighter; font-size: 16px; color: red;}
+h1{font-size: 22px; color: #135fb8; font-weight: lighter;}
+.container {max-width: 1000px;margin: 0 auto;}
+header {background-color: #b6d3f8;margin: auto;border: 1px solid #135fb8;display: flex; align-items: center; justify-content: space-between; padding:10px 20px 10px 35px;}
+header .logo a {font-size: 40px;font-weight: bold;color: #135fb8 ; text-decoration: none;}
+header .contact-info{ text-align: right; }
+header .contact-info  p {color: black; margin-bottom: 83px;}
+header .contact-info  h3 span {font-size: 13px;color: black; font-weight: lighter;}
+header .contact-info  h3 a {font-size: 18px;  color: #135fb8; text-decoration: none;}
+/* ------------------------LINK SECTION ---------------- */
+nav ul{margin: 15px 0;padding: 0}
+nav ul li{list-style: none;display: inline;margin-right: 14px;text-align: center;line-height: 35px;}
+nav ul li:last-child{margin-right: 0;}
+nav ul li a{display:inline-block; height:35px; width:185px; text-decoration:none;   border: 1px solid #135fb8 ;color: white;background-color:#135fb8 ;}
+nav ul li a:hover{ background-color: white; color: #135fb8; transition: 0.2s;}
+nav ul li:first-child a{background-color: white; color:#135fb8}
+nav ul li:first-child a:hover{color: white;background-color:#135fb8 ;}
+/* --------------------------------section 3------------------ */
+main {display: flex; justify-content: center; margin-top: 20px;padding: 0 5px;}
+main .sub-section3-01{ background-color: #b6d3f8; padding: 16px;    border: 1px solid #135fb8 ;flex: 0 0 auto;width: 20%; padding: 13px 20px 10px 13px;}
+main .sub-section3-01 label { font-weight: 490; font-size: 15px;  display: block; margin-bottom: 2px;}
+main .sub-section3-01 h1{  color: #135fb8; margin-left: -5px; margin-bottom: 20px;}
+main .sub-section3-01 .input{font-size: 13px; border: 2px solid darkgray; width: 100%; padding: 4px 5px;}
+main .sub-section3-01 input{ margin-bottom: 10px;  border: none;  border-radius: none; }
+main .sub-section3-01 select{ background-color: white;  margin-bottom: 12px;  border: none;}
+main .sub-section3-01 .coment{   margin-bottom: 13px; background-color: #fff; line-height: 1; height: 60px; resize: none; width: 99%; }
+main .sub-section3-01 div {display: flex; justify-content: space-between; margin-bottom: 5px;}
+main .sub-section3-01 .btn{background-color: #135fb8; color: white; padding: 3px 19px; border-radius: 4px;}
+main .sub-section3-01 .btn:hover{color:#135fb8 ; background-color: white;}
+main .sub-section3-02{margin-left: 10px ; border: 1px solid #135fb8 ; padding: 12px 15px 8px 15px;flex: 0 0 auto;width: 80%;}
+main .sub-section3-02 p{font-size: 12px; margin-top: 10px; margin-bottom: 22px;}
+.img-content{background-color: white;display: flex;text-align: center;  justify-content: space-around;  padding: 20px; }
+.img-content img{padding: 10px 0;}
+main .sub-section3-02 .img-content .first-cont,.second-cont,.third-cont {border-right: 1px solid lightgray; padding: 0px 40px 20px 20px;}
+.img-content  .readmore:hover{color: white; background-color:#135fb8 ;}
+.img-content  .readmore {margin-top: 3px;background-color: #b6d3f8;border-radius: 5px;border: 1px solid #135fb8; color: black; font-size: 14px;font-weight: 500; padding: 3px 10px;}
+/* ------------------footer---------------------------------------- */
+.footer{width: 1000px;background-color: #b6d3f8 ;margin: auto;margin-top: 20px; padding: 18px 16px 9px 16px;;border: 1px solid #135fb8 ;}
+.footer ul{margin: 0;padding: 0; display: flex; justify-content: center; justify-content: space-evenly ;}
+.footer ul li{list-style: none;} 
+.footer ul li a{text-decoration: none;color: black; font-size: 14px;}
+.footer p{margin-top: 5px;font-size: 12px; text-align: center;}
+.footer a {color: black;text-decoration: underline;  margin-top: 10px; font-weight: 400; font-size: 13px; }
+.footer .tell{text-align: right; margin-top: 5px;}
+.footer a:hover{color: white;}
